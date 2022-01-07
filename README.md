@@ -29,7 +29,7 @@
       src="https://img.shields.io/badge/Prettier-%23f7b93e?style=flat&logo=prettier&logoColor=black"
     />
   </a>
-  <a href="">
+  <a href="https://www.npmjs.com/package/svelte-tippy">
     <img
       alt="NPM Package Version"
       src="https://img.shields.io/npm/v/svelte-tippy?color=%23CB3837&label=NPM&logo=npm&logoColor=%23ffffff"
