@@ -85,3 +85,35 @@ And then you can use the custom action with these defaults applied
 </script>
 <button use:myTippy={{content: 'Test'}}>Test</button>
 ```
+
+## Tailwind/WindiCSS example
+
+![TailwindCSS Demo](images/demo.png)
+
+```svelte
+<script lang="ts">
+	import {tippy} from '$lib/tippy';
+	import 'tippy.js/animations/perspective-subtle.css';
+	import 'tippy.js/dist/tippy.css';
+</script>
+<button
+  class="button"
+  use:tippy={{
+    content: 'Test',
+    placement: 'bottom',
+    arrow: false,
+    theme: 'test',
+    animation: 'perspective-subtle'
+  }}
+>
+  Test
+</button>
+
+
+<style>
+	:global(.tippy-box[data-theme='test']) {
+		@apply inline-block py-1 px-2.5 text-sm font-medium rounded-lg shadow-sm;
+		@apply text-white bg-gray-900;
+	}
+</style>
+```
