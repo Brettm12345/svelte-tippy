@@ -61,6 +61,7 @@ npm install svelte-tippy tippy.js --save
   import {tippy} from '$lib/tippy';
   import 'tippy.js/dist/tippy.css'; // optional
 </script>
+
 <button use:tippy={{content: 'Test', placement: 'left' }}>Test</button>
 ```
 
@@ -73,8 +74,8 @@ import 'tippy.js/animations/perspective-subtle.css';
 import {createTippy} from 'svelte-tippy';
 
 export const tippy = createTippy({
-	animation: 'perspective-subtle',
-	arrow: false
+  animation: 'perspective-subtle',
+  arrow: false
 });
 ```
 
@@ -84,6 +85,7 @@ And then you can use the custom action with these defaults applied
 <script lang="ts">
   import {tippy} from '$lib/tippy';
 </script>
+
 <button use:tippy={{content: 'Test'}}>Test</button>
 ```
 
@@ -93,10 +95,10 @@ And then you can use the custom action with these defaults applied
 
 ```svelte
 <script lang="ts">
-  import {tippy} from '$lib/tippy';
-	import 'tippy.js/animations/perspective-subtle.css';
-	import 'tippy.js/dist/tippy.css';
+  import tippy from 'svelte-tippy';
+  import 'tippy.js/animations/perspective-subtle.css';
 </script>
+
 <button
   class="button"
   use:tippy={{
@@ -110,11 +112,10 @@ And then you can use the custom action with these defaults applied
   Test
 </button>
 
-
 <style>
-	:global(.tippy-box[data-theme='test']) {
-		@apply inline-block py-1 px-2.5 text-sm font-medium rounded-lg shadow-sm;
-		@apply text-white bg-gray-900;
-	}
+  :global(.tippy-box[data-theme='test']) {
+    @apply inline-block py-1 px-2.5 text-sm font-medium rounded-lg shadow-sm;
+    @apply text-white bg-gray-900;
+  }
 </style>
 ```
