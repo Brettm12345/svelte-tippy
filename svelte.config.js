@@ -8,6 +8,8 @@ const config = {
 		adapter: adapter(),
 		target: '#svelte',
 		package: {
+			dir: 'package',
+			emitTypes: true,
 			exports: file => file === 'index.ts'
 		}
 	}
