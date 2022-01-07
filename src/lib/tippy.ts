@@ -5,10 +5,7 @@ export interface TippyReturn {
   update: (newProps: Partial<Props>) => void;
   destroy: () => void;
 }
-export type Tippy = (
-  element: HTMLElement,
-  props?: Partial<Props>
-) => TippyReturn;
+export type Tippy = (element: HTMLElement, props?: Partial<Props>) => TippyReturn;
 export const tippy: Tippy = (element, props) => {
   const {destroy, setProps} = runTippy(element, props);
   return {
