@@ -35,6 +35,9 @@
       src="https://img.shields.io/npm/v/svelte-tippy?color=%23CB3837&label=NPM&logo=npm&logoColor=%23ffffff"
     />
   </a>
+  <a href="https://github.com/Brettm12345/svelte-tippy/actions/workflows/test.yml">
+    <img alt="Build status" src="https://img.shields.io/github/workflow/status/brettm12345/svelte-tippy/Test?logo=github" />
+  </a>
 </p>
 
 # Tippy.js for svelte
