@@ -4,7 +4,6 @@ import WindiCSS from 'vite-plugin-windicss';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: preprocess(),
   kit: {
     adapter: adapter(),
     target: '#svelte',
