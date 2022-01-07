@@ -93,7 +93,7 @@ And then you can use the custom action with these defaults applied
 
 ```svelte
 <script lang="ts">
-  import tippy from 'svelte-tippy;
+  import tippy from 'svelte-tippy';
   import 'tippy.js/animations/perspective-subtle.css';
   import 'tippy.js/dist/tippy.css';
 </script>
