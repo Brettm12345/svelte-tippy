@@ -1,35 +1,35 @@
 <p align="center">
-  <a href="https://www.typescriptlang.org">
+  <a href="https://www.typescriptlang.org" _target="blank">
     <img
       alt="Typescript"
       src="https://img.shields.io/badge/Typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white"
     />
   </a>
-  <a href="https://eslint.org/">
+  <a href="https://eslint.org/ _target="blank"">
     <img
       alt="ESLint"
       src="https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white"
     />
   </a>
-  <a href="https://svelte.dev">
+  <a href="https://svelte.dev" _target="blank">
     <img
       alt="Svelte"
       src="https://img.shields.io/badge/Svelte-%23f1413d.svg?style=flat&logo=svelte&logoColor=white"
     />
   </a>
-  <a href="https://pnpm.io">
+  <a href="https://pnpm.io" _target="blank">
     <img
       alt="PnPm"
       src="https://img.shields.io/badge/Pnpm-%23f69220.svg?style=flat&logo=pnpm&logoColor=white"
     />
   </a>
-  <a href="https://prettier.io/">
+  <a href="https://prettier.io/" _target="blank">
     <img
       alt="Prettier"
       src="https://img.shields.io/badge/Prettier-%23f7b93e?style=flat&logo=prettier&logoColor=black"
     />
   </a>
-  <a href="https://www.npmjs.com/package/svelte-tippy">
+  <a href="https://www.npmjs.com/package/svelte-tippy" _target="blank">
     <img
       alt="NPM Package Version"
       src="https://img.shields.io/npm/v/svelte-tippy?color=%23CB3837&label=NPM&logo=npm&logoColor=%23ffffff"
