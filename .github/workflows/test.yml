@@ -1,0 +1,14 @@
+on:
+  - push
+  - pull_request
+
+jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: setup-pnpm
+      uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 6.0.2
+    - name: run-tests
+      run: pnpm test
