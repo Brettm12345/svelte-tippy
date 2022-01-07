@@ -9,10 +9,10 @@ export interface TippyReturn {
 }
 export type Tippy = (element: HTMLElement, props?: TippyProps) => TippyReturn;
 export const tippy: Tippy = (element, props) => {
-  const {destroy, setProps} = runTippy(element, props);
+  const {destroy, setProps: update} = runTippy(element, props);
   return {
     destroy,
-    update: setProps
+    update
   };
 };
 
