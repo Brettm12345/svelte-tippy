@@ -41,6 +41,19 @@
 
 A svelte action for creating tippy.js tooltips.
 
+## Getting started
+
+```zsh
+# Pnpm
+pnpm add svelte-tippy tippy.js
+
+# Yarn
+yarn add svelte-tippy tippy.js
+
+# NPM
+npm install svelte-tippy tippy.js --save
+```
+
 ## Usage
 
 ```svelte
