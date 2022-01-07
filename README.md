@@ -70,20 +70,21 @@ Sometimes you might want to create custom tooltips and reuse them throughout you
 
 ```typescript
 import 'tippy.js/animations/perspective-subtle.css';
-import tippy from 'svelte-tippy';
-import type {Tippy} from 'svelte-tippy';
+import {createTippy} from 'svelte-tippy';
 
-export const myTippy: Tippy = (element, props) =>
-  tippy(element, {...props, animation: 'perspective-subtle', arrow: false});
+export const tippy = createTippy({
+	animation: 'perspective-subtle',
+	arrow: false
+});
 ```
 
 And then you can use the custom action with these defaults applied
 
 ```svelte
 <script lang="ts">
-  import {myTippy} from '$lib/tippy';
+  import {tippy} from '$lib/tippy';
 </script>
-<button use:myTippy={{content: 'Test'}}>Test</button>
+<button use:tippy={{content: 'Test'}}>Test</button>
 ```
 
 ## Tailwind/WindiCSS example
