@@ -62,7 +62,7 @@ npm install svelte-tippy tippy.js --save
   import 'tippy.js/dist/tippy.css'; // optional
 </script>
 
-<button use:tippy={{content: 'Test', placement: 'left' }}>Test</button>
+<button use:tippy={{content: 'Test', placement: 'left'}}>Test</button>
 ```
 
 ## Extending
