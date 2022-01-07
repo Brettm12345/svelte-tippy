@@ -10,7 +10,7 @@ export type Tippy = (
 	props?: Partial<Props>
 ) => TippyReturn;
 export const tippy: Tippy = (element, props) => {
-	const {destroy, setProps} = runTippy(element, {theme: 'test', ...props});
+	const {destroy, setProps} = runTippy(element, props);
 	return {
 		destroy,
 		update: setProps
