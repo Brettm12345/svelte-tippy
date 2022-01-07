@@ -19,4 +19,4 @@ export const tippy: Tippy = (element, props) => {
 
 export type CreateTippy = (defaultProps: Partial<Props>) => Tippy;
 export const createTippy: CreateTippy = defaultProps => (element, props) =>
-	tippy(element, {...defaultProps, ...props});
+	tippy(element, {...props, ...defaultProps});
