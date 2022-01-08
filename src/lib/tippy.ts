@@ -22,24 +22,15 @@ export const tippy: Tippy = (element, props) => {
 export type CreateTippy = (defaultProps: TippyProps) => Tippy;
 /**
  * @example
- * #### `lib/tippy.ts`
- *
- * ```typescript
- * import {createTippy} from 'svelte-tippy';
- *
- * export const tippy = createTippy({
- *  arrow: false,
- *  offset: [0, 10],
- *  animateFill: true,
- *  delay: 10
- * })
- * ```
- * -------------------------------------------
- * #### `lib/Component.svelte`
- *
  * ```svelte
  * <script lang="ts">
  *   import {tippy} from '$lib/tippy';
+ *   const tippy = createTippy({
+ *    arrow: false,
+ *    offset: [0, 10],
+ *    animateFill: true,
+ *    delay: 10
+ * })
  * </script>
  * <button use:tippy={{content: 'Test'}}>Test</button>
  * ```
