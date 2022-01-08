@@ -15,10 +15,10 @@
       "matchPackagePatterns": ["windicss"],
       "labels": ["styles"]
     },
-    {"matchDepTypes": ["devDependencies"], "autoMerge": true},
     {
       "matchDepTypes": ["devDependencies"],
-      "labels": ["Development Dependencies"]
+      "labels": ["Development Dependencies"],
+      "automerge": true
     },
     {
       "matchDepTypes": ["dependencies"],
@@ -27,7 +27,7 @@
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "autoMerge": true
+      "automerge": true
     }
   ],
   "vulnerabilityAlerts": {

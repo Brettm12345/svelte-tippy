@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["sveltejs", "vite", "windicss"],
+  "cSpell.words": ["automerge", "sveltejs", "vite", "windicss"],
   "json.schemas": [
     {
       "fileMatch": ["/.markdownlintrc", "/.markdownlintrc.json"],
