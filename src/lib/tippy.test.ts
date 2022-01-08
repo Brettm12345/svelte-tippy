@@ -2,11 +2,12 @@
  * @jest-environment jsdom
  */
 
+import '@testing-library/jest-dom';
 import TooltipTest from './TooltipTest.svelte';
 import {render, fireEvent} from '@testing-library/svelte';
 
-test('It renders on hover', async () => {
+test('It does not render by default', async () => {
   const {getByText} = render(TooltipTest);
-  fireEvent.mouseOver(getByText('Button'));
-  expect(() => getByText('Tooltip')).toBeDefined();
+  await fireEvent.mouseOver(getByText('Button'));
+  expect(() => getByText('Tooltip')).toThrow();
 });
