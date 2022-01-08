@@ -1,5 +1,37 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["eslint", "prettier"],
+      "labels": ["linting"]
+    },
+    {
+      "matchPackagePatterns": ["jest"],
+      "labels": ["svelte"]
+    },
+    {
+      "matchPackagePatterns": ["windicss"],
+      "labels": ["styles"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "labels": ["Development Dependencies"],
+      "autoMerge": true
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "labels": ["Package Dependencies"]
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "autoMerge": true
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["@brettm12345"]
+  }
 }
