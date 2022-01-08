@@ -15,10 +15,10 @@
       "matchPackagePatterns": ["windicss"],
       "labels": ["styles"]
     },
+    {"matchDepTypes": ["devDependencies"], "autoMerge": true},
     {
       "matchDepTypes": ["devDependencies"],
-      "labels": ["Development Dependencies"],
-      "autoMerge": true
+      "labels": ["Development Dependencies"]
     },
     {
       "matchDepTypes": ["dependencies"],
