@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["sveltejs", "vite", "windicss"]
+  "cSpell.words": ["sveltejs", "vite", "windicss"],
+  "json.schemas": [
+    {
+      "fileMatch": ["/.markdownlintrc", "/.markdownlintrc.json"],
+      "url": "https://json.schemastore.org/markdownlint.json"
+    }
+  ]
 }
