@@ -36,9 +36,18 @@
     />
   </a>
   <a href="https://github.com/Brettm12345/svelte-tippy/actions/workflows/test.yml">
-    <img alt="Build status" src="https://img.shields.io/github/workflow/status/brettm12345/svelte-tippy/Test?logo=github" />
+    <img
+      alt="Build status"
+      src="https://img.shields.io/github/workflow/status/brettm12345/svelte-tippy/Test?logo=github" 
+    />
   </a>
+  <a href="https://app.renovatebot.com/dashboard">
+    <img
+      alt="renovate"
+      src="https://camo.githubusercontent.com/7597e455e058854f972621894ac91b514e6c0e7b2f6d65ed0cf754d7b2f5f265/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d61696e7461696564253230776974682d72656e6f766174652d626c75653f6c6f676f3d72656e6f76617465626f74"
+  />
 </p>
+
 
 # Tippy.js for svelte
 
