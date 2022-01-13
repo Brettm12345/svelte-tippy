@@ -28,7 +28,7 @@ specifiers:
   ts-node: 10.4.0
   tslib: 2.3.1
   typescript: 4.5.4
-  vite: 2.7.10
+  vite: 2.7.11
   vite-plugin-windicss: 1.6.2
   windicss: 3.4.2
 
@@ -39,7 +39,7 @@ devDependencies:
   '@babel/core': 7.16.7
   '@babel/preset-env': 7.16.8_@babel+core@7.16.7
   '@sveltejs/adapter-auto': 1.0.0-next.10
-  '@sveltejs/kit': 1.0.0-next.225_svelte@3.46.1
+  '@sveltejs/kit': 1.0.0-next.227_svelte@3.46.1
   '@testing-library/jest-dom': 5.16.1
   '@testing-library/svelte': 3.0.3_svelte@3.46.1
   '@types/jest': 27.4.0
@@ -62,8 +62,8 @@ devDependencies:
   ts-node: 10.4.0_typescript@4.5.4
   tslib: 2.3.1
   typescript: 4.5.4
-  vite: 2.7.10
-  vite-plugin-windicss: 1.6.2_vite@2.7.10
+  vite: 2.7.11
+  vite-plugin-windicss: 1.6.2_vite@2.7.11
   windicss: 3.4.2
 
 packages:
@@ -1619,17 +1619,17 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.225_svelte@3.46.1:
-    resolution: {integrity: sha512-J/f+FZVdvpTmn7nCeRKRC1L9gbcI7g1bJRaw+jMdq/MYtGqcRw/fjYrx9/xO3+1YH0wgNG1b26GwmQZE64PFIQ==}
+  /@sveltejs/kit/1.0.0-next.227_svelte@3.46.1:
+    resolution: {integrity: sha512-AyTM51Mo01sV7Z3k0yEjKeSVfN84cXqu4+63FiSNMSvalIO9UfBYcKqfRZDtR/nPvw1zFNCC2HFAvRJGKIY8Xw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
       svelte: ^3.44.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.1+vite@2.7.10
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.1+vite@2.7.11
       sade: 1.8.1
       svelte: 3.46.1
-      vite: 2.7.10
+      vite: 2.7.11
     transitivePeerDependencies:
       - diff-match-patch
       - less
@@ -1638,7 +1638,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.1+vite@2.7.10:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.1+vite@2.7.11:
     resolution: {integrity: sha512-qZH2jndijrdkvevgbO7OH3iQsviM5Kz7h5APiNP4yEMZTrwq9bifzYvco6BprwtPvLb5wYlRVFZUOdusY6AovQ==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -1656,7 +1656,7 @@ packages:
       require-relative: 0.8.7
       svelte: 3.46.1
       svelte-hmr: 0.14.9_svelte@3.46.1
-      vite: 2.7.10
+      vite: 2.7.11
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5091,7 +5091,7 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite-plugin-windicss/1.6.2_vite@2.7.10:
+  /vite-plugin-windicss/1.6.2_vite@2.7.11:
     resolution: {integrity: sha512-JFZmWo2XumDIoOk6wOW7RugVFpq0ACJ7DRT0dPi8KJ0fCNyYF+Wu6xyig7/QOQEAfoMbYxnVeU3CWGU4D5PlyA==}
     peerDependencies:
       vite: ^2.0.1
@@ -5099,14 +5099,14 @@ packages:
       '@windicss/plugin-utils': 1.6.2
       debug: 4.3.3
       kolorist: 1.5.1
-      vite: 2.7.10
+      vite: 2.7.11
       windicss: 3.4.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.7.10:
-    resolution: {integrity: sha512-KEY96ntXUid1/xJihJbgmLZx7QSC2D4Tui0FdS0Old5OokYzFclcofhtxtjDdGOk/fFpPbHv9yw88+rB93Tb8w==}
+  /vite/2.7.11:
+    resolution: {integrity: sha512-W1OVwJmtuxnzt9HwZ1AebVLgvsgNpe4TK/sxvF+1x2y8MRnTEHvaPqxy9A67IYb5BR0Q+nENmLYa3QfESmp5GQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
