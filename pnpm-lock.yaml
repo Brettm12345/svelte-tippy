@@ -24,7 +24,7 @@ specifiers:
   svelte-preprocess: 4.10.1
   svelte2tsx: 0.4.14
   tippy.js: 6.3.7
-  ts-jest: 27.1.2
+  ts-jest: 27.1.3
   ts-node: 10.4.0
   tslib: 2.3.1
   typescript: 4.5.4
@@ -58,7 +58,7 @@ devDependencies:
   svelte-jester: 2.1.5_jest@27.4.7+svelte@3.46.2
   svelte-preprocess: 4.10.1_6cd4d7584e2b8433224c43dff0600ff9
   svelte2tsx: 0.4.14_svelte@3.46.2+typescript@4.5.4
-  ts-jest: 27.1.2_c82cf09a8c20c9f058da33995250bf96
+  ts-jest: 27.1.3_c82cf09a8c20c9f058da33995250bf96
   ts-node: 10.4.0_typescript@4.5.4
   tslib: 2.3.1
   typescript: 4.5.4
@@ -4920,8 +4920,8 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /ts-jest/27.1.2_c82cf09a8c20c9f058da33995250bf96:
-    resolution: {integrity: sha512-eSOiJOWq6Hhs6Khzk5wKC5sgWIXgXqOCiIl1+3lfnearu58Hj4QpE5tUhQcA3xtZrELbcvAGCsd6HB8OsaVaTA==}
+  /ts-jest/27.1.3_c82cf09a8c20c9f058da33995250bf96:
+    resolution: {integrity: sha512-6Nlura7s6uM9BVUAoqLH7JHyMXjz8gluryjpPXxr3IxZdAXnU6FhjvVLHFtfd1vsE1p8zD1OJfskkc0jhTSnkA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
