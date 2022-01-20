@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@babel/core': 7.16.10
-  '@babel/preset-env': 7.16.10
+  '@babel/preset-env': 7.16.11
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   '@testing-library/jest-dom': 5.16.1
@@ -37,9 +37,9 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.16.10
-  '@babel/preset-env': 7.16.10_@babel+core@7.16.10
-  '@sveltejs/adapter-auto': 1.0.0-next.11
-  '@sveltejs/kit': 1.0.0-next.232_svelte@3.46.2
+  '@babel/preset-env': 7.16.11_@babel+core@7.16.10
+  '@sveltejs/adapter-auto': 1.0.0-next.13
+  '@sveltejs/kit': 1.0.0-next.235_svelte@3.46.2
   '@testing-library/jest-dom': 5.16.1
   '@testing-library/svelte': 3.0.3_svelte@3.46.2
   '@types/jest': 27.4.0
@@ -144,6 +144,24 @@ packages:
       '@babel/helper-validator-option': 7.16.7
       browserslist: 4.19.1
       semver: 6.3.0
+    dev: true
+
+  /@babel/helper-create-class-features-plugin/7.16.10_@babel+core@7.16.10:
+    resolution: {integrity: sha512-wDeej0pu3WN/ffTxMNCPW5UCiOav8IcLRxSIyp/9+IF2xJUM9h/OYjg0IJLHaL6F8oU8kqMz9nc1vryXhMsgXg==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      '@babel/core': 7.16.10
+      '@babel/helper-annotate-as-pure': 7.16.7
+      '@babel/helper-environment-visitor': 7.16.7
+      '@babel/helper-function-name': 7.16.7
+      '@babel/helper-member-expression-to-functions': 7.16.7
+      '@babel/helper-optimise-call-expression': 7.16.7
+      '@babel/helper-replace-supers': 7.16.7
+      '@babel/helper-split-export-declaration': 7.16.7
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@babel/helper-create-class-features-plugin/7.16.7_@babel+core@7.16.10:
@@ -537,14 +555,14 @@ packages:
       '@babel/plugin-syntax-optional-chaining': 7.8.3_@babel+core@7.16.10
     dev: true
 
-  /@babel/plugin-proposal-private-methods/7.16.7_@babel+core@7.16.10:
-    resolution: {integrity: sha512-7twV3pzhrRxSwHeIvFE6coPgvo+exNDOiGUMg39o2LiLo1Y+4aKpfkcLGcg1UHonzorCt7SNXnoMyCnnIOA8Sw==}
+  /@babel/plugin-proposal-private-methods/7.16.11_@babel+core@7.16.10:
+    resolution: {integrity: sha512-F/2uAkPlXDr8+BHpZvo19w3hLFKge+k75XUprE6jaqKxjGkSYcK+4c+bup5PdW/7W/Rpjwql7FTVEDW+fRAQsw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.16.10
-      '@babel/helper-create-class-features-plugin': 7.16.7_@babel+core@7.16.10
+      '@babel/helper-create-class-features-plugin': 7.16.10_@babel+core@7.16.10
       '@babel/helper-plugin-utils': 7.16.7
     transitivePeerDependencies:
       - supports-color
@@ -558,7 +576,7 @@ packages:
     dependencies:
       '@babel/core': 7.16.10
       '@babel/helper-annotate-as-pure': 7.16.7
-      '@babel/helper-create-class-features-plugin': 7.16.7_@babel+core@7.16.10
+      '@babel/helper-create-class-features-plugin': 7.16.10_@babel+core@7.16.10
       '@babel/helper-plugin-utils': 7.16.7
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.16.10
     transitivePeerDependencies:
@@ -1093,8 +1111,8 @@ packages:
       '@babel/helper-plugin-utils': 7.16.7
     dev: true
 
-  /@babel/preset-env/7.16.10_@babel+core@7.16.10:
-    resolution: {integrity: sha512-iCac3fZn9oOcLqc1N2/copPiX7aoxzsvjeDdXoZobrlbQ6YGgS3bL9HyldOJ8V8AY5P7pFynCATrn7M4dMw0Yg==}
+  /@babel/preset-env/7.16.11_@babel+core@7.16.10:
+    resolution: {integrity: sha512-qcmWG8R7ZW6WBRPZK//y+E3Cli151B20W1Rv7ln27vuPaXU/8TKms6jFdiJtF7UDTxcrb7mZd88tAeK9LjdT8g==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1118,7 +1136,7 @@ packages:
       '@babel/plugin-proposal-object-rest-spread': 7.16.7_@babel+core@7.16.10
       '@babel/plugin-proposal-optional-catch-binding': 7.16.7_@babel+core@7.16.10
       '@babel/plugin-proposal-optional-chaining': 7.16.7_@babel+core@7.16.10
-      '@babel/plugin-proposal-private-methods': 7.16.7_@babel+core@7.16.10
+      '@babel/plugin-proposal-private-methods': 7.16.11_@babel+core@7.16.10
       '@babel/plugin-proposal-private-property-in-object': 7.16.7_@babel+core@7.16.10
       '@babel/plugin-proposal-unicode-property-regex': 7.16.7_@babel+core@7.16.10
       '@babel/plugin-syntax-async-generators': 7.8.4_@babel+core@7.16.10
@@ -1556,36 +1574,36 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.11:
-    resolution: {integrity: sha512-VvFB5E/5y2aKr/XBS6fghT7aZF/D/Tm9/muscGIGtZK0mojL6SDdAhI3hqoWuHfBKz0D7YzLh4mlWEmERdmt/w==}
+  /@sveltejs/adapter-auto/1.0.0-next.13:
+    resolution: {integrity: sha512-bXhoyQa2DtyftAnaRaK9pWV1VtiXeDlGpfXfmR/StEEOgw3NUwk6JHimDmbbHnxYWk71sNwdYPgzpub5LHLLTQ==}
     dependencies:
-      '@sveltejs/adapter-cloudflare': 1.0.0-next.7
-      '@sveltejs/adapter-netlify': 1.0.0-next.39
-      '@sveltejs/adapter-vercel': 1.0.0-next.37
+      '@sveltejs/adapter-cloudflare': 1.0.0-next.8
+      '@sveltejs/adapter-netlify': 1.0.0-next.41
+      '@sveltejs/adapter-vercel': 1.0.0-next.39
     dev: true
 
-  /@sveltejs/adapter-cloudflare/1.0.0-next.7:
-    resolution: {integrity: sha512-P2rq+Tdvv9IKX4SVrIRqgZ2DnjmpPjp/bhAISs6cgbMzc2AmLMCeN++DXAZAVWugIjF1freLmtXcCl3/0HByNg==}
+  /@sveltejs/adapter-cloudflare/1.0.0-next.8:
+    resolution: {integrity: sha512-uje8eUfP1xrMEdKczvjl0rpu7WTZZrZCBTgH2sTSYYiAqpCevsmJNZ9Lgh5U5a4BYBYGVvAcYdh8nzoddxOZkw==}
     dependencies:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.39:
-    resolution: {integrity: sha512-uBRscFmse2PkRZzIbRkG2sUNSIUveliiWFWUkIvxClfsT9x7JxVHgr1zsBwbIdrWs4EE7PvTAlUnv2wlEBEijQ==}
+  /@sveltejs/adapter-netlify/1.0.0-next.41:
+    resolution: {integrity: sha512-w2TvRnuzYRkF9ZOCxiWhY/GaqGbvyeLotRndXFlLv8+uCV0A150XOacKkespDhHC8qZgC4PUB/Hr2Azar3r1qw==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.13.15
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.37:
-    resolution: {integrity: sha512-SfaaakXjk6sBmSGozdrUQIsB3cFdo47ZFFEHMlPOScvXuAY8VPc1jCbGEQPadKW9Txf9xDuu6trm41OYztC+RA==}
+  /@sveltejs/adapter-vercel/1.0.0-next.39:
+    resolution: {integrity: sha512-YOPGKIILm26h22GN4/iliXce61aTG3Dq5hX8xpDx0cNuCocv0OoLfIqiGpdyJ9NIMpjwXmpVoL4+nV+yh2wcSA==}
     dependencies:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.232_svelte@3.46.2:
-    resolution: {integrity: sha512-STQ0hnJozIop8k9I313nwVasBIQ45Z2K1pUOkDVjCSOGijgsj+De5q0prQBtL1ZlqqisfkYlOf8W9gvDSyTLEA==}
+  /@sveltejs/kit/1.0.0-next.235_svelte@3.46.2:
+    resolution: {integrity: sha512-VCat9bA8yUF7CP2RYzTTdk43ZjQybN7ZT53Sv870mUGtwUNwLEx4egtF4dSkfQuIya+1hNU8+doRNhpmsIrVTQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -3322,7 +3340,7 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       '@babel/core': 7.16.10
-      '@babel/parser': 7.16.8
+      '@babel/parser': 7.16.10
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.0
       semver: 6.3.0
