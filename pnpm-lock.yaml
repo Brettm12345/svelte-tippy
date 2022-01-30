@@ -19,7 +19,7 @@ specifiers:
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.3
-  svelte-check: 2.3.0
+  svelte-check: 2.4.0
   svelte-jester: 2.1.5
   svelte-preprocess: 4.10.2
   svelte2tsx: 0.5.0
@@ -54,7 +54,7 @@ devDependencies:
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.3
   svelte: 3.46.3
-  svelte-check: 2.3.0_797fb98b69a85babdd086452aaa795e5
+  svelte-check: 2.4.0_797fb98b69a85babdd086452aaa795e5
   svelte-jester: 2.1.5_jest@27.4.7+svelte@3.46.3
   svelte-preprocess: 4.10.2_8e14cdd5f1455816a37e3b2959604ed3
   svelte2tsx: 0.5.0_svelte@3.46.3+typescript@4.5.5
@@ -2971,17 +2971,6 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob/3.2.10:
-    resolution: {integrity: sha512-s9nFhFnvR63wls6/kM88kQqDhMu0AfdjqouE2l5GVQPbqLgyFjjU5ry/r2yKsJxpb9Py1EYNqieFrmMaX4v++A==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': 2.0.5
-      '@nodelib/fs.walk': 1.2.8
-      glob-parent: 5.1.2
-      merge2: 1.4.1
-      micromatch: 4.0.4
-    dev: true
-
   /fast-glob/3.2.11:
     resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
     engines: {node: '>=8.6.0'}
@@ -4709,14 +4698,14 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.3.0_797fb98b69a85babdd086452aaa795e5:
-    resolution: {integrity: sha512-SBKdJyUmxzPmJf/ZPqDSQOoa9JzOcgEpV7u3UaYcgVn7fA0veZ3FA5JgLU8KYtf84Gp6guBVcrC7XKLjJa5SXQ==}
+  /svelte-check/2.4.0_797fb98b69a85babdd086452aaa795e5:
+    resolution: {integrity: sha512-IBPK3MJPNEYoDGE1GF12JgvL2+5hzFtEF79jjwFDaBE6LMiKCyDn69NBXoVaNlTBfnfZb3ZkgUAG6U+QtAkVYQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
       chokidar: 3.5.2
-      fast-glob: 3.2.10
+      fast-glob: 3.2.11
       import-fresh: 3.3.0
       minimist: 1.2.5
       picocolors: 1.0.0
