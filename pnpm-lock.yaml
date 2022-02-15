@@ -28,7 +28,7 @@ specifiers:
   ts-node: 10.5.0
   tslib: 2.3.1
   typescript: 4.5.5
-  vite: 2.8.2
+  vite: 2.8.3
   vite-plugin-windicss: 1.7.0
   windicss: 3.4.3
 
@@ -62,8 +62,8 @@ devDependencies:
   ts-node: 10.5.0_typescript@4.5.5
   tslib: 2.3.1
   typescript: 4.5.5
-  vite: 2.8.2
-  vite-plugin-windicss: 1.7.0_vite@2.8.2
+  vite: 2.8.3
+  vite-plugin-windicss: 1.7.0_vite@2.8.3
   windicss: 3.4.3
 
 packages:
@@ -1640,10 +1640,10 @@ packages:
     peerDependencies:
       svelte: ^3.44.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.4+vite@2.8.2
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.4+vite@2.8.3
       sade: 1.8.1
       svelte: 3.46.4
-      vite: 2.8.2
+      vite: 2.8.3
     transitivePeerDependencies:
       - diff-match-patch
       - less
@@ -1652,7 +1652,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.4+vite@2.8.2:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.4+vite@2.8.3:
     resolution: {integrity: sha512-qZH2jndijrdkvevgbO7OH3iQsviM5Kz7h5APiNP4yEMZTrwq9bifzYvco6BprwtPvLb5wYlRVFZUOdusY6AovQ==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -1670,7 +1670,7 @@ packages:
       require-relative: 0.8.7
       svelte: 3.46.4
       svelte-hmr: 0.14.9_svelte@3.46.4
-      vite: 2.8.2
+      vite: 2.8.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5359,7 +5359,7 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite-plugin-windicss/1.7.0_vite@2.8.2:
+  /vite-plugin-windicss/1.7.0_vite@2.8.3:
     resolution: {integrity: sha512-1ps7hk6Pr9TqsW9Y+QXmJ9PMowVLjM0h32c+jh9vdQr5Jzyim3hHivR0rXSkDV9znIB9RkjRQD1znRbAMX0OcQ==}
     peerDependencies:
       vite: ^2.0.1
@@ -5367,14 +5367,14 @@ packages:
       '@windicss/plugin-utils': 1.7.0
       debug: 4.3.3
       kolorist: 1.5.1
-      vite: 2.8.2
+      vite: 2.8.3
       windicss: 3.4.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.8.2:
-    resolution: {integrity: sha512-zawfykcPVPYva4KusIWORNLr324Qx86/3NpfQSIOJdjnL5pYhwDoImLYMOh4lFLcP/7//tNuWM2vx2F5OSVC9w==}
+  /vite/2.8.3:
+    resolution: {integrity: sha512-967klrEiG7HEsN7fQYYVETs5495Iu6GpI7YyxoO5yVTJCRxjV8HhWgNWKgrbazjoOB9DQuztL53/nUoNqHNsWg==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
