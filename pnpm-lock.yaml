@@ -30,7 +30,7 @@ specifiers:
   typescript: 4.5.5
   vite: 2.8.4
   vite-plugin-windicss: 1.7.1
-  windicss: 3.4.3
+  windicss: 3.4.4
 
 dependencies:
   tippy.js: 6.3.7
@@ -39,7 +39,7 @@ devDependencies:
   '@babel/core': 7.17.5
   '@babel/preset-env': 7.16.11_@babel+core@7.17.5
   '@sveltejs/adapter-auto': 1.0.0-next.17
-  '@sveltejs/kit': 1.0.0-next.278_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.281_svelte@3.46.4
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3_svelte@3.46.4
   '@types/jest': 27.4.0
@@ -64,7 +64,7 @@ devDependencies:
   typescript: 4.5.5
   vite: 2.8.4
   vite-plugin-windicss: 1.7.1_vite@2.8.4
-  windicss: 3.4.3
+  windicss: 3.4.4
 
 packages:
 
@@ -1627,8 +1627,8 @@ packages:
       esbuild: 0.13.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.278_svelte@3.46.4:
-    resolution: {integrity: sha512-WT93Wnu05X9WG9BMMk/dj0gy6R7iXm9aXRDVgmIl9z8jT2ukejgmkhi5IwBYrK0OMIUALRVfukn+iy+srPc91Q==}
+  /@sveltejs/kit/1.0.0-next.281_svelte@3.46.4:
+    resolution: {integrity: sha512-IBEqbckzNmLGEFqi+4gG0XxNyQ/koO+OYK2fSjNZvRxLL9W1H4RhMRmEGdZGvPt1opBuqD0ErgdgmHMNO+B8XQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1974,7 +1974,7 @@ packages:
     dependencies:
       debug: 4.3.3
       jiti: 1.12.9
-      windicss: 3.4.3
+      windicss: 3.4.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1988,7 +1988,7 @@ packages:
       fast-glob: 3.2.11
       magic-string: 0.25.7
       micromatch: 4.0.4
-      windicss: 3.4.3
+      windicss: 3.4.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5362,7 +5362,7 @@ packages:
       debug: 4.3.3
       kolorist: 1.5.1
       vite: 2.8.4
-      windicss: 3.4.3
+      windicss: 3.4.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5447,8 +5447,8 @@ packages:
       isexe: 2.0.0
     dev: true
 
-  /windicss/3.4.3:
-    resolution: {integrity: sha512-UnugThsvEgy8RsPm4/B5DYMCAqvZzD6yWU7Anh+f07t5RSJ8zvmAylGLbXrHPJEmCKzo2Mf+fOUvISH7IJqM3A==}
+  /windicss/3.4.4:
+    resolution: {integrity: sha512-M3ZTw8wiluUjg16Pu7nwqZmmCiX+eEX6yArzXX0a/HFQWhwyghi7ouT2m95XQsXqvnzAw9FKiF2eFHGfOezdsg==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
