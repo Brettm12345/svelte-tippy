@@ -28,7 +28,7 @@ specifiers:
   ts-node: 10.5.0
   tslib: 2.3.1
   typescript: 4.5.5
-  vite: 2.8.4
+  vite: 2.8.5
   vite-plugin-windicss: 1.8.1
   windicss: 3.5.0
 
@@ -38,8 +38,8 @@ dependencies:
 devDependencies:
   '@babel/core': 7.17.5
   '@babel/preset-env': 7.16.11_@babel+core@7.17.5
-  '@sveltejs/adapter-auto': 1.0.0-next.29
-  '@sveltejs/kit': 1.0.0-next.287_svelte@3.46.4
+  '@sveltejs/adapter-auto': 1.0.0-next.30
+  '@sveltejs/kit': 1.0.0-next.288_svelte@3.46.4
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3_svelte@3.46.4
   '@types/jest': 27.4.1
@@ -62,8 +62,8 @@ devDependencies:
   ts-node: 10.5.0_typescript@4.5.5
   tslib: 2.3.1
   typescript: 4.5.5
-  vite: 2.8.4
-  vite-plugin-windicss: 1.8.1_vite@2.8.4
+  vite: 2.8.5
+  vite-plugin-windicss: 1.8.1_vite@2.8.5
   windicss: 3.5.0
 
 packages:
@@ -1597,11 +1597,11 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.29:
-    resolution: {integrity: sha512-kqaT5dtyBcpQiyDgUxCvpYKOv4uqPissW8f0OPvMQJBD554px985nkQJWh0rsr9f+SRzxH3vW+kRsn7UgVRMvQ==}
+  /@sveltejs/adapter-auto/1.0.0-next.30:
+    resolution: {integrity: sha512-kKKDvv2bwH66l/A97u26973OG3Zh7V1WlTKgkOr95Koo1/Y6rBhBfkz0Jw+WLzsZ+hcTzgIrcegtWVt+GQRJpw==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.14
-      '@sveltejs/adapter-netlify': 1.0.0-next.48
+      '@sveltejs/adapter-netlify': 1.0.0-next.49
       '@sveltejs/adapter-vercel': 1.0.0-next.45
     dev: true
 
@@ -1611,8 +1611,8 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.48:
-    resolution: {integrity: sha512-bX/u1y63gQ5H1qlAn53Gk/soGWOwCjly0DHvXuD8cojB6vbZhtcnYU5H6mws+uZ6F6qDaNnttC77chPsttsU9g==}
+  /@sveltejs/adapter-netlify/1.0.0-next.49:
+    resolution: {integrity: sha512-EYP0/eK1foC90fBNn6V9fP0ngrMF3MrkaNN+wCnMj0rHGKOKUzXlIeyPtGtQnDL9cqHac39pbPhSyMaMuWZF/w==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.21
@@ -1625,17 +1625,17 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.287_svelte@3.46.4:
-    resolution: {integrity: sha512-aiCCuSpE9U8tX+29fnPfh9qHzWm8dBP7hkWvzcb1SZqbij8WXHyntUg/LXmhqlb8zKflEMLWa8iS+coqYDPmPQ==}
+  /@sveltejs/kit/1.0.0-next.288_svelte@3.46.4:
+    resolution: {integrity: sha512-6ky4CUFNGKoU1QV+fY2LOIB7atHdUCIMRx3pX21B2g9yZzQzkot0zHBrMMBSKF0/4Wx19PLEWrlGxlhakYmi8Q==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
       svelte: ^3.44.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.4+vite@2.8.4
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.34_svelte@3.46.4+vite@2.8.5
       sade: 1.8.1
       svelte: 3.46.4
-      vite: 2.8.4
+      vite: 2.8.5
     transitivePeerDependencies:
       - diff-match-patch
       - less
@@ -1644,7 +1644,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.4+vite@2.8.4:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.34_svelte@3.46.4+vite@2.8.5:
     resolution: {integrity: sha512-qZH2jndijrdkvevgbO7OH3iQsviM5Kz7h5APiNP4yEMZTrwq9bifzYvco6BprwtPvLb5wYlRVFZUOdusY6AovQ==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -1662,7 +1662,7 @@ packages:
       require-relative: 0.8.7
       svelte: 3.46.4
       svelte-hmr: 0.14.9_svelte@3.46.4
-      vite: 2.8.4
+      vite: 2.8.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5158,7 +5158,7 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite-plugin-windicss/1.8.1_vite@2.8.4:
+  /vite-plugin-windicss/1.8.1_vite@2.8.5:
     resolution: {integrity: sha512-c+900Dkc94kRuZPb6mz79B5XOS2PHNhadf7P9UjIRoimEE5HB7hj1f+A6qGHO4VejwU/MIvA6D5+Sz2lDKAaEQ==}
     peerDependencies:
       vite: ^2.0.1
@@ -5166,14 +5166,14 @@ packages:
       '@windicss/plugin-utils': 1.8.1
       debug: 4.3.3
       kolorist: 1.5.1
-      vite: 2.8.4
+      vite: 2.8.5
       windicss: 3.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.8.4:
-    resolution: {integrity: sha512-GwtOkkaT2LDI82uWZKcrpRQxP5tymLnC7hVHHqNkhFNknYr0hJUlDLfhVRgngJvAy3RwypkDCWtTKn1BjO96Dw==}
+  /vite/2.8.5:
+    resolution: {integrity: sha512-C/7EGNa1ugWejol6nOcd/0d8PR70Nzd+XXwsPbnNOfzZw0NN2xyXfmw/GNDHgr5fcaTSO4gjxCJCrwNhQUMhmA==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
