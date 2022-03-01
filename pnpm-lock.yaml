@@ -8,7 +8,7 @@ specifiers:
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3
   '@types/jest': 27.4.1
-  '@types/testing-library__jest-dom': 5.14.2
+  '@types/testing-library__jest-dom': 5.14.3
   '@typescript-eslint/eslint-plugin': 5.13.0
   '@typescript-eslint/parser': 5.13.0
   babel-jest: 27.5.1
@@ -43,7 +43,7 @@ devDependencies:
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3_svelte@3.46.4
   '@types/jest': 27.4.1
-  '@types/testing-library__jest-dom': 5.14.2
+  '@types/testing-library__jest-dom': 5.14.3
   '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
   '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
   babel-jest: 27.5.1_@babel+core@7.17.5
@@ -1686,7 +1686,7 @@ packages:
     engines: {node: '>=8', npm: '>=6', yarn: '>=1'}
     dependencies:
       '@babel/runtime': 7.16.7
-      '@types/testing-library__jest-dom': 5.14.2
+      '@types/testing-library__jest-dom': 5.14.3
       aria-query: 5.0.0
       chalk: 3.0.0
       css: 3.0.0
@@ -1815,8 +1815,8 @@ packages:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
     dev: true
 
-  /@types/testing-library__jest-dom/5.14.2:
-    resolution: {integrity: sha512-vehbtyHUShPxIa9SioxDwCvgxukDMH//icJG90sXQBUm5lJOHLT5kNeU9tnivhnA/TkOFMzGIXN2cTc4hY8/kg==}
+  /@types/testing-library__jest-dom/5.14.3:
+    resolution: {integrity: sha512-oKZe+Mf4ioWlMuzVBaXQ9WDnEm1+umLx0InILg+yvZVBBDmzV5KfZyLrCvadtWcx8+916jLmHafcmqqffl+iIw==}
     dependencies:
       '@types/jest': 27.4.1
     dev: true
