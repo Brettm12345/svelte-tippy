@@ -13,7 +13,7 @@ specifiers:
   '@typescript-eslint/parser': 5.13.0
   babel-jest: 27.5.1
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0
+  eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
   jest: 27.5.1
   prettier: 2.5.1
@@ -39,7 +39,7 @@ devDependencies:
   '@babel/core': 7.17.5
   '@babel/preset-env': 7.16.11_@babel+core@7.17.5
   '@sveltejs/adapter-auto': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.288_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.290_svelte@3.46.4
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/svelte': 3.0.3_svelte@3.46.4
   '@types/jest': 27.4.1
@@ -48,7 +48,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
   babel-jest: 27.5.1_@babel+core@7.17.5
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
+  eslint-config-prettier: 8.5.0_eslint@8.10.0
   eslint-plugin-svelte3: 3.4.1_eslint@8.10.0+svelte@3.46.4
   jest: 27.5.1_ts-node@10.6.0
   prettier: 2.5.1
@@ -1625,8 +1625,8 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.288_svelte@3.46.4:
-    resolution: {integrity: sha512-6ky4CUFNGKoU1QV+fY2LOIB7atHdUCIMRx3pX21B2g9yZzQzkot0zHBrMMBSKF0/4Wx19PLEWrlGxlhakYmi8Q==}
+  /@sveltejs/kit/1.0.0-next.290_svelte@3.46.4:
+    resolution: {integrity: sha512-3Q0uX/auFYsoj3o7+vQtZ+ZsuRLAmVsra5hvkvml18EjfX1wGRNdLlPcl6VE95eAvViWe/65vGaNNC+02h1crA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -2846,8 +2846,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
