@@ -16,7 +16,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
   jest: 27.5.1
-  prettier: 2.6.1
+  prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.6
   svelte-check: 2.4.6
@@ -38,8 +38,8 @@ dependencies:
 devDependencies:
   '@babel/core': 7.17.8
   '@babel/preset-env': 7.16.11_@babel+core@7.17.8
-  '@sveltejs/adapter-auto': 1.0.0-next.33
-  '@sveltejs/kit': 1.0.0-next.303_svelte@3.46.6
+  '@sveltejs/adapter-auto': 1.0.0-next.34
+  '@sveltejs/kit': 1.0.0-next.304_svelte@3.46.6
   '@testing-library/jest-dom': 5.16.3
   '@testing-library/svelte': 3.1.0_svelte@3.46.6
   '@types/jest': 27.4.1
@@ -51,8 +51,8 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.12.0
   eslint-plugin-svelte3: 3.4.1_eslint@8.12.0+svelte@3.46.6
   jest: 27.5.1_ts-node@10.7.0
-  prettier: 2.6.1
-  prettier-plugin-svelte: 2.6.0_prettier@2.6.1+svelte@3.46.6
+  prettier: 2.6.2
+  prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
   svelte: 3.46.6
   svelte-check: 2.4.6_@babel+core@7.17.8+svelte@3.46.6
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.46.6
@@ -1621,18 +1621,19 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.33:
-    resolution: {integrity: sha512-FVEBSw5XIYCrqMPY2VGmaGyT4ZvbahcdQJ613O4lgAoafRdUy7ZaE8GoeDmCJxtTUsqhAQUFu7jx9IIhz+QrsQ==}
+  /@sveltejs/adapter-auto/1.0.0-next.34:
+    resolution: {integrity: sha512-BzZVfy39idFojauroLrE/v9paJ1/HOlS2R857ooCwaLg+RrRy6zJHWwYxNSv5e8AaZiVg7ioZZpU/2g6ZgUpaQ==}
     dependencies:
-      '@sveltejs/adapter-cloudflare': 1.0.0-next.16
+      '@sveltejs/adapter-cloudflare': 1.0.0-next.17
       '@sveltejs/adapter-netlify': 1.0.0-next.51
       '@sveltejs/adapter-vercel': 1.0.0-next.47
     dev: true
 
-  /@sveltejs/adapter-cloudflare/1.0.0-next.16:
-    resolution: {integrity: sha512-ripTRtOasAtxDJEIF3kwwji/9WHfX069i5LuRwGUzOi4/cbcGfgV1RFBVfo/8G6hr3ehqLeKCdloet1yTsp34A==}
+  /@sveltejs/adapter-cloudflare/1.0.0-next.17:
+    resolution: {integrity: sha512-B2ze5L0LsHFsZctVNy4sw0XxgV2YiVEHyMrWRo3pmpTwpu6GT5V3U2fsEoCMg/RKMazlWkyKTCuUqmcpYjjf2g==}
     dependencies:
       esbuild: 0.14.29
+      worktop: 0.8.0-next.12
     dev: true
 
   /@sveltejs/adapter-netlify/1.0.0-next.51:
@@ -1649,8 +1650,8 @@ packages:
       esbuild: 0.14.29
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.303_svelte@3.46.6:
-    resolution: {integrity: sha512-WdxDc8OiF1WEd/bEza7CBdzA+3qIcCi1GKBj/gieKX9I3N8iDJt/Cg2POrLo9wQoJ47nZcAd1eOhfr7XEX1aIQ==}
+  /@sveltejs/kit/1.0.0-next.304_svelte@3.46.6:
+    resolution: {integrity: sha512-3+bCoDsF2Omolx51lK6+4Zgr8NYge8USxKpZpAg8OfonEW8L4GToyV4g+udLMCI3CC4QEw3eS1RFUj9UxLf2NQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -4189,6 +4190,11 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /mrmime/1.0.0:
+    resolution: {integrity: sha512-a70zx7zFfVO7XpnQ2IX1Myh9yY4UYvfld/dikWRnsXxbyvMcfz+u6UfgNAtH+k2QqtJuzVpv6eLTx1G2+WKZbQ==}
+    engines: {node: '>=10'}
+    dev: true
+
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
@@ -4397,18 +4403,18 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.6.0_prettier@2.6.1+svelte@3.46.6:
+  /prettier-plugin-svelte/2.6.0_prettier@2.6.2+svelte@3.46.6:
     resolution: {integrity: sha512-NPSRf6Y5rufRlBleok/pqg4+1FyGsL0zYhkYP6hnueeL1J/uCm3OfOZPsLX4zqD9VAdcXfyEL2PYqGv8ZoOSfA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.6.1
+      prettier: 2.6.2
       svelte: 3.46.6
     dev: true
 
-  /prettier/2.6.1:
-    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -4491,6 +4497,11 @@ packages:
     resolution: {integrity: sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==}
     dependencies:
       '@babel/runtime': 7.16.7
+    dev: true
+
+  /regexparam/2.0.0:
+    resolution: {integrity: sha512-gJKwd2MVPWHAIFLsaYDZfyKzHNS4o7E/v8YmNf44vmeV2e4YfVoDToTOKTvE7ab68cRJ++kLuEXJBaEeJVt5ow==}
+    engines: {node: '>=8'}
     dev: true
 
   /regexpp/3.2.0:
@@ -5278,6 +5289,14 @@ packages:
   /word-wrap/1.2.3:
     resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /worktop/0.8.0-next.12:
+    resolution: {integrity: sha512-ZXdgI9XOf0uB4IegFoViLdQ0Bf7hish0XMHwuV3nopOXygfLJkwAC5+HyA+sihBMSM2sLLQ5uGnD5aknL8+NQg==}
+    engines: {node: '>=12'}
+    dependencies:
+      mrmime: 1.0.0
+      regexparam: 2.0.0
     dev: true
 
   /wrap-ansi/7.0.0:
