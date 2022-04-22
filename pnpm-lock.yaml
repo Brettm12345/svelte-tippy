@@ -26,7 +26,7 @@ specifiers:
   tippy.js: 6.3.7
   ts-jest: 27.1.4
   ts-node: 10.7.0
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
   vite: 2.9.5
   vite-plugin-windicss: 1.8.4
@@ -38,8 +38,8 @@ dependencies:
 devDependencies:
   '@babel/core': 7.17.9
   '@babel/preset-env': 7.16.11_@babel+core@7.17.9
-  '@sveltejs/adapter-auto': 1.0.0-next.34
-  '@sveltejs/kit': 1.0.0-next.315_svelte@3.47.0
+  '@sveltejs/adapter-auto': 1.0.0-next.36
+  '@sveltejs/kit': 1.0.0-next.318_svelte@3.47.0
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/svelte': 3.1.1_svelte@3.47.0
   '@types/jest': 27.4.1
@@ -60,7 +60,7 @@ devDependencies:
   svelte2tsx: 0.5.9_svelte@3.47.0+typescript@4.6.3
   ts-jest: 27.1.4_e5fb0852f9419ae84240799a2f4ee178
   ts-node: 10.7.0_typescript@4.6.3
-  tslib: 2.3.1
+  tslib: 2.4.0
   typescript: 4.6.3
   vite: 2.9.5
   vite-plugin-windicss: 1.8.4_vite@2.9.5
@@ -1588,37 +1588,37 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.34:
-    resolution: {integrity: sha512-BzZVfy39idFojauroLrE/v9paJ1/HOlS2R857ooCwaLg+RrRy6zJHWwYxNSv5e8AaZiVg7ioZZpU/2g6ZgUpaQ==}
+  /@sveltejs/adapter-auto/1.0.0-next.36:
+    resolution: {integrity: sha512-BCvSlz77Mz38K2sQUQ3YcudxJsOZprOmIW05rzPf5KrqidWa5CvPH2PdQ7XKX7CYgcZHqWioyYt8oxdXBCIulA==}
     dependencies:
-      '@sveltejs/adapter-cloudflare': 1.0.0-next.17
-      '@sveltejs/adapter-netlify': 1.0.0-next.51
-      '@sveltejs/adapter-vercel': 1.0.0-next.47
+      '@sveltejs/adapter-cloudflare': 1.0.0-next.18
+      '@sveltejs/adapter-netlify': 1.0.0-next.53
+      '@sveltejs/adapter-vercel': 1.0.0-next.49
     dev: true
 
-  /@sveltejs/adapter-cloudflare/1.0.0-next.17:
-    resolution: {integrity: sha512-B2ze5L0LsHFsZctVNy4sw0XxgV2YiVEHyMrWRo3pmpTwpu6GT5V3U2fsEoCMg/RKMazlWkyKTCuUqmcpYjjf2g==}
+  /@sveltejs/adapter-cloudflare/1.0.0-next.18:
+    resolution: {integrity: sha512-iIb7ScN2hnnfVQPhRjw0FYpovYJrw4n22BFAQIg6QvOwmmGz1E3QkyBkm/tRmyY7emDfnljgXtvk4Hsoszp5Ug==}
     dependencies:
       esbuild: 0.14.29
       worktop: 0.8.0-next.12
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.51:
-    resolution: {integrity: sha512-P7/cW/0z8zd8J6DOI2yxKZG0+HRMMuzfOf0yzFXX0vRwBePhKlZ/H4qhTOo2NrCmj3Len545o+ugj5gyMXl1+g==}
+  /@sveltejs/adapter-netlify/1.0.0-next.53:
+    resolution: {integrity: sha512-F35KBfdSbR2FXJWliTRj422Y8OAc3syx9vgVPO/bQRuqSnCpXmgxuUgmPZ73/skv3fS4QStXsXQGTnyV4Xs25A==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.29
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.47:
-    resolution: {integrity: sha512-VV3vP8KqL9XOc7xfQLVhXTM5jrTme+r1qJy98u5/dhAhkdjqrGDwAKo/s7MoB3rTYxLb2b8I4QxAaoz2Y2aIBg==}
+  /@sveltejs/adapter-vercel/1.0.0-next.49:
+    resolution: {integrity: sha512-Me0Zb10iBv+ySVMc0XgI7rdzwiMmeVHq48iVv3oXORa/et/efJVEknVSVk22q15XRqys7DhoPirf54Mz4jElFQ==}
     dependencies:
       esbuild: 0.14.29
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.315_svelte@3.47.0:
-    resolution: {integrity: sha512-f6ufqd9z6uicOOr1eSIclm4TonwoRtw0kuIYrDatYSZtu/081kZ5r0Vj6sXDI6tFI1kctoRzPtFECXf5zkZvlw==}
+  /@sveltejs/kit/1.0.0-next.318_svelte@3.47.0:
+    resolution: {integrity: sha512-/M/XNvEqK71KCGro1xLuiUuklsMPe+G5DiVMs39tpfFIFhH4oCzAt+YBaIZDKORogGz3QDaYc5BV+eFv9E5cyw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -4057,7 +4057,7 @@ packages:
   /lower-case/2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /lru-cache/6.0.0:
@@ -4194,7 +4194,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /node-int64/0.4.0:
@@ -4317,7 +4317,7 @@ packages:
     resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
     dependencies:
       no-case: 3.0.4
-      tslib: 2.3.1
+      tslib: 2.4.0
     dev: true
 
   /path-exists/4.0.0:
@@ -5050,8 +5050,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.3.1:
-    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.6.3:
