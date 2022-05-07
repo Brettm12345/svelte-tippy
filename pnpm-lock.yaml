@@ -7,7 +7,7 @@ specifiers:
   '@sveltejs/kit': next
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/svelte': 3.1.1
-  '@types/jest': 27.4.1
+  '@types/jest': 27.5.0
   '@types/testing-library__jest-dom': 5.14.3
   '@typescript-eslint/eslint-plugin': 5.21.0
   '@typescript-eslint/parser': 5.21.0
@@ -42,7 +42,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.326_svelte@3.48.0
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/svelte': 3.1.1_svelte@3.48.0
-  '@types/jest': 27.4.1
+  '@types/jest': 27.5.0
   '@types/testing-library__jest-dom': 5.14.3
   '@typescript-eslint/eslint-plugin': 5.21.0_c1e59b1199c3e62d6b2356f37f2be084
   '@typescript-eslint/parser': 5.21.0_eslint@8.15.0+typescript@4.6.4
@@ -58,7 +58,7 @@ devDependencies:
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.48.0
   svelte-preprocess: 4.10.6_1fcc2a9cb75a34181b58d4abe51bbac8
   svelte2tsx: 0.5.9_svelte@3.48.0+typescript@4.6.4
-  ts-jest: 27.1.4_503223244159864e2399277b79d41b5f
+  ts-jest: 27.1.4_b9494841e57bab118b2da0bbe32becd6
   ts-node: 10.7.0_typescript@4.6.4
   tslib: 2.4.0
   typescript: 4.6.4
@@ -1780,8 +1780,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.4.1:
-    resolution: {integrity: sha512-23iPJADSmicDVrWk+HT58LMJtzLAnB2AgIzplQuq/bSrGaxCrlvRFjGbXmamnnk/mAmCdLStiGqggu28ocUyiw==}
+  /@types/jest/27.5.0:
+    resolution: {integrity: sha512-9RBFx7r4k+msyj/arpfaa0WOOEcaAZNmN+j80KFbFCoSqCJGHTz7YMAMGQW9Xmqm5w6l5c25vbSjMwlikJi5+g==}
     dependencies:
       jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
@@ -1816,7 +1816,7 @@ packages:
   /@types/testing-library__jest-dom/5.14.3:
     resolution: {integrity: sha512-oKZe+Mf4ioWlMuzVBaXQ9WDnEm1+umLx0InILg+yvZVBBDmzV5KfZyLrCvadtWcx8+916jLmHafcmqqffl+iIw==}
     dependencies:
-      '@types/jest': 27.4.1
+      '@types/jest': 27.5.0
     dev: true
 
   /@types/yargs-parser/20.2.1:
@@ -5020,7 +5020,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /ts-jest/27.1.4_503223244159864e2399277b79d41b5f:
+  /ts-jest/27.1.4_b9494841e57bab118b2da0bbe32becd6:
     resolution: {integrity: sha512-qjkZlVPWVctAezwsOD1OPzbZ+k7zA5z3oxII4dGdZo5ggX/PL7kvwTM0pXTr10fAtbiVpJaL3bWd502zAhpgSQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -5042,7 +5042,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.17.10
-      '@types/jest': 27.4.1
+      '@types/jest': 27.5.0
       babel-jest: 27.5.1_@babel+core@7.17.10
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
