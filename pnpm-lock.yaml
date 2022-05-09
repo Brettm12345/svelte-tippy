@@ -30,7 +30,7 @@ specifiers:
   typescript: 4.6.4
   vite: 2.9.8
   vite-plugin-windicss: 1.8.4
-  windicss: 3.5.1
+  windicss: 3.5.2
 
 dependencies:
   tippy.js: 6.3.7
@@ -64,7 +64,7 @@ devDependencies:
   typescript: 4.6.4
   vite: 2.9.8
   vite-plugin-windicss: 1.8.4_vite@2.9.8
-  windicss: 3.5.1
+  windicss: 3.5.2
 
 packages:
 
@@ -396,6 +396,8 @@ packages:
     resolution: {integrity: sha512-n2Q6i+fnJqzOaq2VkdXxy2TCPCWQZHiCo0XqmrCvDWcZQKRyZzYi4Z0yxlBuN0w+r2ZHmre+Q087DSrw3pbJDQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.17.10
     dev: true
 
   /@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression/7.16.7_@babel+core@7.17.10:
@@ -1960,7 +1962,7 @@ packages:
     dependencies:
       debug: 4.3.4
       jiti: 1.13.0
-      windicss: 3.5.1
+      windicss: 3.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1974,7 +1976,7 @@ packages:
       fast-glob: 3.2.11
       magic-string: 0.26.1
       micromatch: 4.0.5
-      windicss: 3.5.1
+      windicss: 3.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5204,7 +5206,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.5.1
       vite: 2.9.8
-      windicss: 3.5.1
+      windicss: 3.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5289,8 +5291,8 @@ packages:
       isexe: 2.0.0
     dev: true
 
-  /windicss/3.5.1:
-    resolution: {integrity: sha512-E1hYZATcZFci/XhGS0sJAMRxULjnK+glNukE78Ku7xeb3jxgMY55fFOdIrav+GjQCsgR+IZxPq9/DwmO6eyc4Q==}
+  /windicss/3.5.2:
+    resolution: {integrity: sha512-Vy06iCcKXjR9izEViwIcwdaZHouzNWmjqWmVt3lyfZVNm6hWz6ME6s+6pIwrHMbylbal9hW3M9LRbN9mzFhccQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
