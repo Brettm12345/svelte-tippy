@@ -22,7 +22,7 @@ specifiers:
   svelte-check: 2.7.1
   svelte-jester: 2.3.2
   svelte-preprocess: 4.10.6
-  svelte2tsx: 0.5.9
+  svelte2tsx: 0.5.10
   tippy.js: 6.3.7
   ts-jest: 27.1.4
   ts-node: 10.7.0
@@ -57,7 +57,7 @@ devDependencies:
   svelte-check: 2.7.1_c41d0477867e5b4ada3cfb73a51f73fe
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.48.0
   svelte-preprocess: 4.10.6_1fcc2a9cb75a34181b58d4abe51bbac8
-  svelte2tsx: 0.5.9_svelte@3.48.0+typescript@4.6.4
+  svelte2tsx: 0.5.10_svelte@3.48.0+typescript@4.6.4
   ts-jest: 27.1.4_1fecc43d4c773a9a7682fb1e3bc3c2e7
   ts-node: 10.7.0_typescript@4.6.4
   tslib: 2.4.0
@@ -4920,8 +4920,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.9_svelte@3.48.0+typescript@4.6.4:
-    resolution: {integrity: sha512-xTDASjlh+rKo4QRhTRYSH87sS7fRoyX67xhGIMPKa3FYqftRHRmMes6nVgEskiuhBovslNHYYpMMg5YM5n/STg==}
+  /svelte2tsx/0.5.10_svelte@3.48.0+typescript@4.6.4:
+    resolution: {integrity: sha512-nokQ0HTTWMcNX6tLrDLiOmJCuqjKZU9nCZ6/mVuCL3nusXdbp+9nv69VG2pCy7uQC66kV4Ls+j0WfvvJuGVnkg==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
