@@ -21,7 +21,7 @@ specifiers:
   svelte: 3.48.0
   svelte-check: 2.7.2
   svelte-jester: 2.3.2
-  svelte-preprocess: 4.10.6
+  svelte-preprocess: 4.10.7
   svelte2tsx: 0.5.10
   tippy.js: 6.3.7
   ts-jest: 27.1.5
@@ -56,7 +56,7 @@ devDependencies:
   svelte: 3.48.0
   svelte-check: 2.7.2_@babel+core@7.18.2+svelte@3.48.0
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.48.0
-  svelte-preprocess: 4.10.6_6101bb7890d5c31f8216c357d3896ab9
+  svelte-preprocess: 4.10.7_6101bb7890d5c31f8216c357d3896ab9
   svelte2tsx: 0.5.10_svelte@3.48.0+typescript@4.7.3
   ts-jest: 27.1.5_b939f7fcf8311d93c401ac9253c526f4
   ts-node: 10.8.1_typescript@4.7.3
@@ -2358,7 +2358,7 @@ packages:
     dev: true
 
   /buffer-crc32/0.2.13:
-    resolution: {integrity: sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=}
+    resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
     dev: true
 
   /buffer-from/1.1.2:
@@ -2728,7 +2728,7 @@ packages:
     dev: true
 
   /es6-promise/3.3.1:
-    resolution: {integrity: sha1-oIzd6EzNvzTQJ6FFG8kdS80ophM=}
+    resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
     dev: true
 
   /esbuild-android-64/0.14.29:
@@ -5446,7 +5446,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.48.0
-      svelte-preprocess: 4.10.6_6101bb7890d5c31f8216c357d3896ab9
+      svelte-preprocess: 4.10.7_6101bb7890d5c31f8216c357d3896ab9
       typescript: 4.7.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -5481,8 +5481,8 @@ packages:
       svelte: 3.48.0
     dev: true
 
-  /svelte-preprocess/4.10.6_6101bb7890d5c31f8216c357d3896ab9:
-    resolution: {integrity: sha512-I2SV1w/AveMvgIQlUF/ZOO3PYVnhxfcpNyGt8pxpUVhPfyfL/CZBkkw/KPfuFix5FJ9TnnNYMhACK3DtSaYVVQ==}
+  /svelte-preprocess/4.10.7_6101bb7890d5c31f8216c357d3896ab9:
+    resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
@@ -5491,7 +5491,7 @@ packages:
       less: ^3.11.3 || ^4.0.0
       node-sass: '*'
       postcss: ^7 || ^8
-      postcss-load-config: ^2.1.0 || ^3.0.0
+      postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0
       pug: ^3.0.0
       sass: ^1.26.8
       stylus: ^0.55.0
