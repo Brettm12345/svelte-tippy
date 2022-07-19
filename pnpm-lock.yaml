@@ -22,7 +22,7 @@ specifiers:
   svelte-check: 2.8.0
   svelte-jester: 2.3.2
   svelte-preprocess: 4.10.7
-  svelte2tsx: 0.5.11
+  svelte2tsx: 0.5.12
   tippy.js: 6.3.7
   ts-jest: 27.1.5
   ts-node: 10.9.1
@@ -39,7 +39,7 @@ devDependencies:
   '@babel/core': 7.18.9
   '@babel/preset-env': 7.18.9_@babel+core@7.18.9
   '@sveltejs/adapter-auto': 1.0.0-next.62
-  '@sveltejs/kit': 1.0.0-next.378_svelte@3.49.0+vite@3.0.2
+  '@sveltejs/kit': 1.0.0-next.379_svelte@3.49.0+vite@3.0.2
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/svelte': 3.1.3_svelte@3.49.0
   '@types/jest': 27.5.2
@@ -57,7 +57,7 @@ devDependencies:
   svelte-check: 2.8.0_@babel+core@7.18.9+svelte@3.49.0
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.49.0
   svelte-preprocess: 4.10.7_c95caa2b6d61cfb4c12db5808e766487
-  svelte2tsx: 0.5.11_svelte@3.49.0+typescript@4.7.4
+  svelte2tsx: 0.5.12_svelte@3.49.0+typescript@4.7.4
   ts-jest: 27.1.5_707ddfe49628b49b06709686f9c9a73b
   ts-node: 10.9.1_typescript@4.7.4
   tslib: 2.4.0
@@ -1671,8 +1671,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.378_svelte@3.49.0+vite@3.0.2:
-    resolution: {integrity: sha512-Os8URaMJt5f29IR1mlZLE1lpwffzxc02ws/hJKNjMrOb/tgJjaIyLpGHi24uhQ/VXPv6fD2N6cQtEn+/X7nHGg==}
+  /@sveltejs/kit/1.0.0-next.379_svelte@3.49.0+vite@3.0.2:
+    resolution: {integrity: sha512-mhy0GW4KUJ3tq6mDMF0fs/B6Nh2oJM6ZAA2fwilTOdqzhKD3f2WJLH9RXx1Z5/8eodFeQsURTPRn5a0r3QAZew==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
@@ -5356,8 +5356,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.11_svelte@3.49.0+typescript@4.7.4:
-    resolution: {integrity: sha512-Is95G1wqNvEUJZ9DITRS2zfMwVJRZztMduPs1vJJ0cm65WUg/avBl5vBXjHycQL/qmFpaqa3NG4qWnf7bCHPag==}
+  /svelte2tsx/0.5.12_svelte@3.49.0+typescript@4.7.4:
+    resolution: {integrity: sha512-43ayMivmh1IDCgb+4YDf54YuOJZGCUKFpp37RbfjGgNU+Pmb9HhP+zRXa1pMh4mwSTBfqZS0FbJZP3Q8CSxvvg==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
