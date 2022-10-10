@@ -17,7 +17,7 @@ specifiers:
   eslint-plugin-svelte3: 4.0.0
   jest: 27.5.1
   prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.1
+  prettier-plugin-svelte: 2.8.0
   svelte: 3.50.1
   svelte-check: 2.9.1
   svelte-jester: 2.3.2
@@ -52,7 +52,7 @@ devDependencies:
   eslint-plugin-svelte3: 4.0.0_eslint@8.25.0+svelte@3.50.1
   jest: 27.5.1_ts-node@10.9.1
   prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.1_prettier@2.7.1+svelte@3.50.1
+  prettier-plugin-svelte: 2.8.0_prettier@2.7.1+svelte@3.50.1
   svelte: 3.50.1
   svelte-check: 2.9.1_@babel+core@7.19.3+svelte@3.50.1
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.50.1
@@ -4649,8 +4649,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.7.1_prettier@2.7.1+svelte@3.50.1:
-    resolution: {integrity: sha512-H33qjhCBZyd9Zr1A5hUAYDh7j0Mf97uvy7XcA7CP4nNSYrNcPvBUf7wI8K9NptWTIs0S41QtgTWmJIUiGlEBtw==}
+  /prettier-plugin-svelte/2.8.0_prettier@2.7.1+svelte@3.50.1:
+    resolution: {integrity: sha512-QlXv/U3bUszks3XYDPsk1fsaQC+fo2lshwKbcbO+lrSVdJ+40mB1BfL8OCAk1W9y4pJxpqO/4gqm6NtF3zNGCw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
