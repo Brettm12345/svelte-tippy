@@ -35,7 +35,7 @@
     "svelte-check": "2.9.2",
     "svelte-jester": "2.3.2",
     "svelte-preprocess": "4.10.7",
-    "svelte2tsx": "0.5.20",
+    "svelte2tsx": "0.5.21",
     "ts-jest": "27.1.5",
     "ts-node": "10.9.1",
     "tslib": "2.4.1",
