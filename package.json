@@ -30,7 +30,7 @@
     "eslint-plugin-svelte3": "4.0.0",
     "jest": "27.5.1",
     "prettier": "2.8.2",
-    "prettier-plugin-svelte": "2.8.1",
+    "prettier-plugin-svelte": "2.9.0",
     "svelte": "3.55.0",
     "svelte-check": "2.10.3",
     "svelte-jester": "2.3.2",
