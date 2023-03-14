@@ -21,7 +21,7 @@ specifiers:
   svelte: 3.55.1
   svelte-check: 3.0.3
   svelte-jester: 2.3.2
-  svelte-preprocess: 5.0.1
+  svelte-preprocess: 5.0.2
   svelte2tsx: 0.6.0
   tippy.js: 6.3.7
   ts-jest: 27.1.5
@@ -56,7 +56,7 @@ devDependencies:
   svelte: 3.55.1
   svelte-check: 3.0.3_@babel+core@7.21.3+svelte@3.55.1
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.55.1
-  svelte-preprocess: 5.0.1_f06e41727df004942e854051e6f897a9
+  svelte-preprocess: 5.0.2_f06e41727df004942e854051e6f897a9
   svelte2tsx: 0.6.0_svelte@3.55.1+typescript@4.9.4
   ts-jest: 27.1.5_9519ffb805cd0b0d17fd29c29163e1ee
   ts-node: 10.9.1_typescript@4.9.4
@@ -2051,12 +2051,6 @@ packages:
 
   /@types/pug/2.0.6:
     resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
-    dev: true
-
-  /@types/sass/1.43.1:
-    resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
-    dependencies:
-      '@types/node': 17.0.8
     dev: true
 
   /@types/semver/7.3.12:
@@ -4862,7 +4856,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.1
-      svelte-preprocess: 5.0.1_f06e41727df004942e854051e6f897a9
+      svelte-preprocess: 5.0.2_f06e41727df004942e854051e6f897a9
       typescript: 4.9.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -4896,8 +4890,8 @@ packages:
       svelte: 3.55.1
     dev: true
 
-  /svelte-preprocess/5.0.1_f06e41727df004942e854051e6f897a9:
-    resolution: {integrity: sha512-0HXyhCoc9rsW4zGOgtInylC6qj259E1hpFnJMJWTf+aIfeqh4O/QHT31KT2hvPEqQfdjmqBR/kO2JDkkciBLrQ==}
+  /svelte-preprocess/5.0.2_f06e41727df004942e854051e6f897a9:
+    resolution: {integrity: sha512-iXpIoa43VdF7fPkBdoodztZd4H+3EP/GYA66tbuLVtQnM3sWCpsOtc7HjfA7BDR+6VTpqlEnpDmPoXk0dgUa0g==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
     peerDependencies:
@@ -4911,7 +4905,7 @@ packages:
       stylus: ^0.55.0
       sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
       svelte: ^3.23.0
-      typescript: ^3.9.5 || ^4.0.0
+      typescript: '>=3.9.5 || ^4.0.0 || ^5.0.0'
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -4936,7 +4930,6 @@ packages:
     dependencies:
       '@babel/core': 7.21.3
       '@types/pug': 2.0.6
-      '@types/sass': 1.43.1
       detect-indent: 6.1.0
       magic-string: 0.27.0
       sorcery: 0.11.0
