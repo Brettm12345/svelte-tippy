@@ -14,8 +14,8 @@
     "test:watch": "pnpm test --watch"
   },
   "devDependencies": {
-    "@babel/core": "7.21.3",
-    "@babel/preset-env": "7.20.2",
+    "@babel/core": "7.22.8",
+    "@babel/preset-env": "7.22.7",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@testing-library/jest-dom": "5.16.5",
