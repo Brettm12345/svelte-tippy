@@ -21,7 +21,7 @@ specifiers:
   svelte: 3.55.1
   svelte-check: 3.0.3
   svelte-jester: 2.3.2
-  svelte-preprocess: 5.0.2
+  svelte-preprocess: 5.0.4
   svelte2tsx: 0.6.0
   tippy.js: 6.3.7
   ts-jest: 27.1.5
@@ -56,7 +56,7 @@ devDependencies:
   svelte: 3.55.1
   svelte-check: 3.0.3_@babel+core@7.21.3+svelte@3.55.1
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.55.1
-  svelte-preprocess: 5.0.2_f06e41727df004942e854051e6f897a9
+  svelte-preprocess: 5.0.4_f06e41727df004942e854051e6f897a9
   svelte2tsx: 0.6.0_svelte@3.55.1+typescript@4.9.4
   ts-jest: 27.1.5_9519ffb805cd0b0d17fd29c29163e1ee
   ts-node: 10.9.1_typescript@4.9.4
@@ -4837,7 +4837,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.55.1
-      svelte-preprocess: 5.0.2_f06e41727df004942e854051e6f897a9
+      svelte-preprocess: 5.0.4_f06e41727df004942e854051e6f897a9
       typescript: 4.9.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -4871,8 +4871,8 @@ packages:
       svelte: 3.55.1
     dev: true
 
-  /svelte-preprocess/5.0.2_f06e41727df004942e854051e6f897a9:
-    resolution: {integrity: sha512-iXpIoa43VdF7fPkBdoodztZd4H+3EP/GYA66tbuLVtQnM3sWCpsOtc7HjfA7BDR+6VTpqlEnpDmPoXk0dgUa0g==}
+  /svelte-preprocess/5.0.4_f06e41727df004942e854051e6f897a9:
+    resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
     peerDependencies:
@@ -4885,7 +4885,7 @@ packages:
       sass: ^1.26.8
       stylus: ^0.55.0
       sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
-      svelte: ^3.23.0
+      svelte: ^3.23.0 || ^4.0.0-next.0 || ^4.0.0
       typescript: '>=3.9.5 || ^4.0.0 || ^5.0.0'
     peerDependenciesMeta:
       '@babel/core':
