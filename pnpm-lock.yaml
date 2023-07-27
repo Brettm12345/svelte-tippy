@@ -13,7 +13,7 @@ specifiers:
   '@typescript-eslint/parser': 6.2.0
   babel-jest: 27.5.1
   eslint: 8.45.0
-  eslint-config-prettier: 8.8.0
+  eslint-config-prettier: 8.9.0
   eslint-plugin-svelte3: 4.0.0
   jest: 27.5.1
   prettier: 3.0.0
@@ -48,7 +48,7 @@ devDependencies:
   '@typescript-eslint/parser': 6.2.0_eslint@8.45.0+typescript@5.1.6
   babel-jest: 27.5.1_@babel+core@7.22.9
   eslint: 8.45.0
-  eslint-config-prettier: 8.8.0_eslint@8.45.0
+  eslint-config-prettier: 8.9.0_eslint@8.45.0
   eslint-plugin-svelte3: 4.0.0_eslint@8.45.0+svelte@3.59.2
   jest: 27.5.1_ts-node@10.9.1
   prettier: 3.0.0
@@ -2913,8 +2913,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.8.0_eslint@8.45.0:
-    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+  /eslint-config-prettier/8.9.0_eslint@8.45.0:
+    resolution: {integrity: sha512-+sbni7NfVXnOpnRadUA8S28AUlsZt9GjgFvABIRL9Hkn8KqNzOp+7Lw4QWtrwn20KzU3wqu1QoOj2m+7rKRqkA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
