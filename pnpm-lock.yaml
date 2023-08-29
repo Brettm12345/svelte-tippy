@@ -19,7 +19,7 @@ specifiers:
   prettier: 3.0.3
   prettier-plugin-svelte: 3.0.3
   svelte: 3.59.2
-  svelte-check: 3.5.0
+  svelte-check: 3.5.1
   svelte-jester: 2.3.2
   svelte-preprocess: 5.0.4
   svelte2tsx: 0.6.20
@@ -54,7 +54,7 @@ devDependencies:
   prettier: 3.0.3
   prettier-plugin-svelte: 3.0.3_prettier@3.0.3+svelte@3.59.2
   svelte: 3.59.2
-  svelte-check: 3.5.0_cb32ab9e46edc25fb9b5189dad36ee07
+  svelte-check: 3.5.1_cb32ab9e46edc25fb9b5189dad36ee07
   svelte-jester: 2.3.2_jest@27.5.1+svelte@3.59.2
   svelte-preprocess: 5.0.4_7b518d372466774d50a40d456badc975
   svelte2tsx: 0.6.20_svelte@3.59.2+typescript@5.2.2
@@ -1865,19 +1865,8 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/sourcemap-codec/1.4.14:
-    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
-    dev: true
-
   /@jridgewell/sourcemap-codec/1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
-    dev: true
-
-  /@jridgewell/trace-mapping/0.3.17:
-    resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==}
-    dependencies:
-      '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
   /@jridgewell/trace-mapping/0.3.19:
@@ -5051,13 +5040,13 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/3.5.0_cb32ab9e46edc25fb9b5189dad36ee07:
-    resolution: {integrity: sha512-KHujbn4k17xKYLmtCwv0sKKM7uiHTYcQvXnvrCcNU6a7hcszh99zFTIoiu/Sp/ewAw5aJmillJ1Cs8gKLmcX4A==}
+  /svelte-check/3.5.1_cb32ab9e46edc25fb9b5189dad36ee07:
+    resolution: {integrity: sha512-+Zb4iHxAhdUtcUg/WJPRjlS1RJalIsWAe9Mz6G1zyznSs7dDkT7VUBdXc3q7Iwg49O/VrZgyJRvOJkjuBfKjFA==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.19
       chokidar: 3.5.3
       fast-glob: 3.2.12
       import-fresh: 3.3.0
