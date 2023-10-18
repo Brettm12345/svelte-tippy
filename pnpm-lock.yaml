@@ -7,7 +7,7 @@ specifiers:
   '@sveltejs/kit': next
   '@testing-library/jest-dom': 5.17.0
   '@testing-library/svelte': 3.2.2
-  '@types/jest': 29.5.5
+  '@types/jest': 29.5.6
   '@types/testing-library__jest-dom': 5.14.9
   '@typescript-eslint/eslint-plugin': 6.8.0
   '@typescript-eslint/parser': 6.8.0
@@ -42,7 +42,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.589_svelte@3.59.2+vite@4.4.11
   '@testing-library/jest-dom': 5.17.0
   '@testing-library/svelte': 3.2.2_svelte@3.59.2
-  '@types/jest': 29.5.5
+  '@types/jest': 29.5.6
   '@types/testing-library__jest-dom': 5.14.9
   '@typescript-eslint/eslint-plugin': 6.8.0_3766655700de7a17b7b758563f12e55d
   '@typescript-eslint/parser': 6.8.0_eslint@8.51.0+typescript@5.2.2
@@ -2080,8 +2080,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.5.5:
-    resolution: {integrity: sha512-ebylz2hnsWR9mYvmBFbXJXr+33UPc4+ZdxyDXh5w0FlPBTfCVN3wPL+kuOiQt3xvrK419v7XWeAs+AeOksafXg==}
+  /@types/jest/29.5.6:
+    resolution: {integrity: sha512-/t9NnzkOpXb4Nfvg17ieHE6EeSjDS2SGSpNYfoLbUAeL/EOueU/RSdOWFpfQTXBEM7BguYW1XQ0EbM+6RlIh6w==}
     dependencies:
       expect: 29.6.3
       pretty-format: 29.6.3
@@ -2114,7 +2114,7 @@ packages:
   /@types/testing-library__jest-dom/5.14.9:
     resolution: {integrity: sha512-FSYhIjFlfOpGSRyVoMBMuS3ws5ehFQODymf3vlI7U1K8c7PHwWwFY7VREfmsuzHSOnoKs/9/Y983ayOs7eRzqw==}
     dependencies:
-      '@types/jest': 29.5.5
+      '@types/jest': 29.5.6
     dev: true
 
   /@types/yargs-parser/20.2.1:
