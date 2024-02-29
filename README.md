@@ -70,7 +70,7 @@ npm install svelte-tippy tippy.js --save
 
 ```svelte
 <script lang="ts">
-  import {tippy} from '$lib/tippy';
+  import {tippy} from 'svelte-tippy';
   import 'tippy.js/dist/tippy.css'; // optional
 </script>
 
